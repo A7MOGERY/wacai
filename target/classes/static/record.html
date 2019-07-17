@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Record</title>
+</head>
+<body>
+<form action="/record" method="post">
+    <div>
+        <input type="text" name="creatTime" placeholder="发生日期，如2019-01-10">
+    </div>
+    <div>
+        <input type="text" name="amount" placeholder="金额">
+    </div>
+    <div>
+        <select name="type">
+            <option value="收入">收入</option>
+            <option value="支出">支出</option>
+        </select>
+        <select name="category">
+            <option value="房租">房租</option>
+            <option value="水电">水电</option>
+            <option value="吃饭">吃饭</option>
+            <option value="请客吃饭">请客吃饭</option>
+            <option value="ktv">ktv</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit">记一笔</button>
+    </div>
+</form>
+<a href="search.html">查询</a>
+
+</body>
+</html>
